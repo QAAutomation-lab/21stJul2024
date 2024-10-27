@@ -9,9 +9,9 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import reusableComponent.SeleniumUtility;
+import utilities.SeleniumUtil;
 
-public class ActitimeLoginValidation extends SeleniumUtility {
+public class ActitimeLoginValidation extends SeleniumUtil {
 
 	ExtentReports extentReports;
 	ExtentTest extentTest;
@@ -27,7 +27,7 @@ public class ActitimeLoginValidation extends SeleniumUtility {
 	public void testActitimeLogin() {
 		setUp("chrome", "https://online.actitime.com/uts/login.do");
 		String expectedTitle="actiTIME - Login";
-		String actualTitle=getCurrentTitleOfApplication();
+		String actualTitle=getAppTitle();
 		result=actualTitle.equals(expectedTitle);
 		Assert.assertTrue(result, "Login validation failed");
 	}	

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-27T08:54:23 IST" name="Default suite" finished-at="2024-10-27T08:54:40 IST" duration-ms="17589">
+    <groups>
+    </groups>
+    <test started-at="2024-10-27T08:54:23 IST" name="Default test" finished-at="2024-10-27T08:54:40 IST" duration-ms="17589">
+      <class name="com.google.testscripts.GoogeTest">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:23 IST" name="precondition" finished-at="2024-10-27T08:54:27 IST" duration-ms="4478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testGoogleSearchPage()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:27 IST" name="testGoogleSearchPage" finished-at="2024-10-27T08:54:27 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearchPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:27 IST" name="postCondition" finished-at="2024-10-27T08:54:28 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:28 IST" name="precondition" finished-at="2024-10-27T08:54:30 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testGoogleSuggestionCount()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:30 IST" name="testGoogleSuggestionCount" finished-at="2024-10-27T08:54:32 IST" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSuggestionCount -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:32 IST" name="postCondition" finished-at="2024-10-27T08:54:32 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:32 IST" name="precondition" finished-at="2024-10-27T08:54:36 IST" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testSuggestionSelection()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:36 IST" name="testSuggestionSelection" finished-at="2024-10-27T08:54:40 IST" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuggestionSelection -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.google.testscripts.GoogeTest@3e27aa33]" started-at="2024-10-27T08:54:40 IST" name="postCondition" finished-at="2024-10-27T08:54:40 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.google.testscripts.GoogeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

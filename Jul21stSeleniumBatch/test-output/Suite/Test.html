@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/2/7</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 20 16:53:37 IST 2024</td>
+<td>Started on:</td><td>Sun Oct 27 07:45:33 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46665 ms)</td>
+<tr><td>Total time:</td><td>113 seconds (113614 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,452 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='day8.testngBasic.Sample4.testCase4()'><b>testCase4</b><br>Test class: day8.testngBasic.Sample4</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace609389093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609389093'><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
 <td title='day8.testngBasic.Example2.testActitimeLoginWithAssert()'><b>testActitimeLoginWithAssert</b><br>Test class: day8.testngBasic.Example2</td>
 <td><div><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
 	at day8.testngBasic.Example2.testActitimeLoginWithAssert(Example2.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace524223214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace524223214'><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2052223881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2052223881'><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at day8.testngBasic.Example2.testActitimeLoginWithAssert(Example2.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='day8.testngBasic.Sample3.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample3</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample3@1ffaf86</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase6()'><b>testCase6</b><br>Test class: day8.testngBasic.Sample4</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase6(Sample4.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace130850024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130850024'><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase6(Sample4.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample1.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample1</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample1@2794eab6</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeLoginUsernameField()'><b>testActitimeLoginUsernameField</b><br>Test class: day8.testngBasic.Example2</td>
+<td></td>
+<td>7</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeCheckBox()'><b>testActitimeCheckBox</b><br>Test class: day8.testngBasic.Example2</td>
+<td></td>
+<td>7</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Example1.testGoogle()'><b>testGoogle</b><br>Test class: day8.testngBasic.Example1</td>
+<td></td>
+<td>12</td>
+<td>day8.testngBasic.Example1@e350b40</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample4<br>Test method: This is my 2nd Test case</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeLoginWithAssert2()'><b>testActitimeLoginWithAssert2</b><br>Test class: day8.testngBasic.Example2</td>
+<td></td>
+<td>20</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample2.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample2</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample2@41a0aa7d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample3.testCase3()'><b>testCase3</b><br>Test class: day8.testngBasic.Sample3</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample3@1ffaf86</td></tr>
+<tr>
+<td title='day8.testngBasic.Precondition.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Precondition</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Precondition@7674f035</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample2.testCase3()'><b>testCase3</b><br>Test class: day8.testngBasic.Sample2</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample2@41a0aa7d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample2.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample2</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample2@41a0aa7d</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeLoginWithoutAssert()'><b>testActitimeLoginWithoutAssert</b><br>Test class: day8.testngBasic.Example2</td>
+<td></td>
+<td>14</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample3.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample3</td>
+<td></td>
+<td>0</td>
+<td>day8.testngBasic.Sample3@1ffaf86</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeCheckBox()'><b>testActitimeCheckBox</b><br>Test class: day8.testngBasic.Example2</td>
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method day8.testngBasic.Example2.testActitimeCheckBox() didn&apos;t finish within the time-out 10000
+	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$278/0x000000010020d728.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000010029e318.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$279/0x000000010020d958.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at app//day8.testngBasic.Example2.testActitimeCheckBox(Example2.java:60)
+	at java.base@17.0.3/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242027525", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1242027525'><pre>org.testng.internal.thread.ThreadTimeoutException: Method day8.testngBasic.Example2.testActitimeCheckBox() didn&apos;t finish within the time-out 10000
+	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$278/0x000000010020d728.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000010029e318.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$279/0x000000010020d958.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at app//day8.testngBasic.Example2.testActitimeCheckBox(Example2.java:60)
+	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.3/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.3/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+	at java.base@17.0.3/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>10</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase5()'><b>testCase5</b><br>Test class: day8.testngBasic.Sample4</td>
+<td><div><pre>java.lang.Throwable: Method day8.testngBasic.Sample4.testCase5() on instance day8.testngBasic.Sample4@13e344d depends on not successfully finished methods 
+[day8.testngBasic.Sample4.testCase4() on instance day8.testngBasic.Sample4@13e344d]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1055104416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1055104416'><pre>java.lang.Throwable: Method day8.testngBasic.Sample4.testCase5() on instance day8.testngBasic.Sample4@13e344d depends on not successfully finished methods 
+[day8.testngBasic.Sample4.testCase4() on instance day8.testngBasic.Sample4@13e344d]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Sample4.testCase4()'><b>testCase4</b><br>Test class: day8.testngBasic.Sample4</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438123546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438123546'><pre>java.lang.ArithmeticException: / by zero
+	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeCheckBox()'><b>testActitimeCheckBox</b><br>Test class: day8.testngBasic.Example2</td>
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method day8.testngBasic.Example2.testActitimeCheckBox() didn&apos;t finish within the time-out 10000
+	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$278/0x000000010020d728.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000010029e318.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$279/0x000000010020d958.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+	at app//utilities.SeleniumUtil.setUp(SeleniumUtil.java:39)
+	at app//day8.testngBasic.Example2.testActitimeCheckBox(Example2.java:59)
+	at java.base@17.0.3/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1267149311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1267149311'><pre>org.testng.internal.thread.ThreadTimeoutException: Method day8.testngBasic.Example2.testActitimeCheckBox() didn&apos;t finish within the time-out 10000
+	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
+	at java.base@17.0.3/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$278/0x000000010020d728.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000010029e318.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$279/0x000000010020d958.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+	at app//utilities.SeleniumUtil.setUp(SeleniumUtil.java:39)
+	at app//day8.testngBasic.Example2.testActitimeCheckBox(Example2.java:59)
+	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.3/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.3/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+	at java.base@17.0.3/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>10</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeLoginWithAssert()'><b>testActitimeLoginWithAssert</b><br>Test class: day8.testngBasic.Example2</td>
+<td><div><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+	at day8.testngBasic.Example2.testActitimeLoginWithAssert(Example2.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1048434276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1048434276'><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -117,15 +557,59 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
-<td>day8.testngBasic.Example2@428640fa</td></tr>
+<td>7</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
+<tr>
+<td title='day8.testngBasic.Example2.testActitimeLoginWithAssert()'><b>testActitimeLoginWithAssert</b><br>Test class: day8.testngBasic.Example2</td>
+<td><div><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+	at day8.testngBasic.Example2.testActitimeLoginWithAssert(Example2.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778162712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778162712'><pre>java.lang.AssertionError: Login failed due to page title changed or invalid user expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at day8.testngBasic.Example2.testActitimeLoginWithAssert(Example2.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>day8.testngBasic.Example2@4d5650ae</td></tr>
 <tr>
 <td title='day8.testngBasic.Sample4.testCase4()'><b>testCase4</b><br>Test class: day8.testngBasic.Sample4</td>
 <td><div><pre>java.lang.ArithmeticException: / by zero
 	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace355885103", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace355885103'><pre>java.lang.ArithmeticException: / by zero
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22668134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22668134'><pre>java.lang.ArithmeticException: / by zero
 	at day8.testngBasic.Sample4.testCase4(Sample4.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -133,8 +617,8 @@ function toggleAllBoxes() {
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -157,189 +641,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample3.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample3</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample3@4f80542f</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample1.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample1</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample1@942a29c</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Precondition.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Precondition</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Precondition@d86a6f</td></tr>
-<tr>
-<td title='day8.testngBasic.Example2.testActitimeCheckBox()'><b>testActitimeCheckBox</b><br>Test class: day8.testngBasic.Example2</td>
-<td></td>
-<td>8</td>
-<td>day8.testngBasic.Example2@428640fa</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample2.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample2</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample2@3527942a</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample2.testCase3()'><b>testCase3</b><br>Test class: day8.testngBasic.Sample2</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample2@3527942a</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Example1.testGoogle()'><b>testGoogle</b><br>Test class: day8.testngBasic.Example1</td>
-<td></td>
-<td>5</td>
-<td>day8.testngBasic.Example1@3f6f6701</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase6()'><b>testCase6</b><br>Test class: day8.testngBasic.Sample4</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at day8.testngBasic.Sample4.testCase6(Sample4.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace740007499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace740007499'><pre>java.lang.ArithmeticException: / by zero
-	at day8.testngBasic.Sample4.testCase6(Sample4.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Example2.testActitimeLoginWithoutAssert()'><b>testActitimeLoginWithoutAssert</b><br>Test class: day8.testngBasic.Example2</td>
-<td></td>
-<td>7</td>
-<td>day8.testngBasic.Example2@428640fa</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample2.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample2</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample2@3527942a</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase2()'><b>testCase2</b><br>Test class: day8.testngBasic.Sample4<br>Test method: This is my 2nd Test case</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample4</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample3.testCase1()'><b>testCase1</b><br>Test class: day8.testngBasic.Sample3</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample3@4f80542f</td></tr>
-<tr>
-<td title='day8.testngBasic.Sample3.testCase3()'><b>testCase3</b><br>Test class: day8.testngBasic.Sample3</td>
-<td></td>
-<td>0</td>
-<td>day8.testngBasic.Sample3@4f80542f</td></tr>
-<tr>
-<td title='day8.testngBasic.Example2.testActitimeLoginWithAssert2()'><b>testActitimeLoginWithAssert2</b><br>Test class: day8.testngBasic.Example2</td>
-<td></td>
-<td>11</td>
-<td>day8.testngBasic.Example2@428640fa</td></tr>
-<tr>
-<td title='day8.testngBasic.Example2.testActitimeLoginUsernameField()'><b>testActitimeLoginUsernameField</b><br>Test class: day8.testngBasic.Example2</td>
-<td></td>
-<td>6</td>
-<td>day8.testngBasic.Example2@428640fa</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='day8.testngBasic.Sample4.testCase5()'><b>testCase5</b><br>Test class: day8.testngBasic.Sample4</td>
-<td><div><pre>java.lang.Throwable: Method day8.testngBasic.Sample4.testCase5() on instance day8.testngBasic.Sample4@534a5a98 depends on not successfully finished methods 
-[day8.testngBasic.Sample4.testCase4() on instance day8.testngBasic.Sample4@534a5a98]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1950136544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1950136544'><pre>java.lang.Throwable: Method day8.testngBasic.Sample4.testCase5() on instance day8.testngBasic.Sample4@534a5a98 depends on not successfully finished methods 
-[day8.testngBasic.Sample4.testCase4() on instance day8.testngBasic.Sample4@534a5a98]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>day8.testngBasic.Sample4@534a5a98</td></tr>
+<td>day8.testngBasic.Sample4@13e344d</td></tr>
 </table><p>
 </body>
 </html>

@@ -6,13 +6,13 @@
   </listeners>
   <test name="Test">
     <classes>
-      <class name="day10.testngExample2.AnnotationList"/>
-      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfter"/>
-      <class name="day10.testngExample2.Assignment"/>
-      <class name="day10.testngExample2.ExampleWithBeforeAfterSuite"/>
-      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfterMethod"/>
-      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfterTest"/>
-      <class name="day10.testngExample2.ClassLabelAnnotations"/>
+      <class name="day8.testngBasic.Example2"/>
+      <class name="day8.testngBasic.Example1"/>
+      <class name="day8.testngBasic.Sample2"/>
+      <class name="day8.testngBasic.Sample1"/>
+      <class name="day8.testngBasic.Sample4"/>
+      <class name="day8.testngBasic.Sample3"/>
+      <class name="day8.testngBasic.Precondition"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

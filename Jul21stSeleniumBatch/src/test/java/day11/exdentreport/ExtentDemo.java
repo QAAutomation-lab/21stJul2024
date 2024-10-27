@@ -15,10 +15,10 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import reusableComponent.SeleniumUtility;
+import utilities.SeleniumUtil;
 
 
-public class ExtentDemo extends SeleniumUtility{
+public class ExtentDemo extends SeleniumUtil{
 	static ExtentTest test;
 	static ExtentReports report;
 	@BeforeClass
@@ -29,7 +29,7 @@ public class ExtentDemo extends SeleniumUtility{
 	@Test
 	public void extentReportsDemo() throws IOException {
 		WebDriver driver=setUp("chrome", "https://www.google.com");
-		if (getCurrentTitleOfApplication().equals("Google")) {
+		if (getAppTitle().equals("Google")) {
 			test.log(LogStatus.PASS,test.addScreenCapture(screenShot(driver)), "Navigated to the specified URL successfully and page tile is also validated");
 			//System.out.println("Navigated to the specified URL successfully and page tile is also validated");
 		} else {
@@ -44,7 +44,7 @@ public class ExtentDemo extends SeleniumUtility{
 	}
 	public static String screenShot(WebDriver driver) throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File Dest = new File("src/../BStackImages/" + System.currentTimeMillis()+ ".png");
+		File Dest = new File("src/../screenshots/" + System.currentTimeMillis()+ ".png");
 		String errflpath = Dest.getAbsolutePath();
 		FileUtils.copyFile(scrFile, Dest);
 		return errflpath;

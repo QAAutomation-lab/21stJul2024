@@ -18,9 +18,9 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import reusableComponent.SeleniumUtility;
+import utilities.SeleniumUtil;
 
-public class OrangeHRM_PIM extends SeleniumUtility {
+public class OrangeHRM_PIM extends SeleniumUtil {
 
 	ExtentReports extentReports;
 	ExtentTest extentTest;
