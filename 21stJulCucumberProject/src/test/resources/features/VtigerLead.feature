@@ -5,7 +5,7 @@ Feature: Create lead in Vtiger application
     And user login successfully with valid data
     And click on navigation bar
     And go to Marketing and select Leads
-
+	@Regression
   Scenario Outline: Create new lead with name as <firstName>
     When click on Add Leads button and enter firstname as <firstName> ,last as <lastName> ,number as <number> and click on save button
     And click on All link
@@ -18,6 +18,7 @@ Feature: Create lead in Vtiger application
 
   # Scenario: Update lead and validate it
   #TODO:
+  @Regression
   Scenario Outline: Delete all leads and validate it
     When click on newly created lead checkbox
     And click on delete logo

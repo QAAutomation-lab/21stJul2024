@@ -1,15 +1,15 @@
 Feature: Testing Google search functionality
-
+	@Smoke
   Scenario: Validate suggestion count in google search
     Given Browser is already opened with valid url
     When user types "Selenium" in search input field
     Then user should get "10" suggestions
-
+	@Smoke
   Scenario: Validate suggestion selection in google
     When user selects "selenium interview questions" from suggestion
     Then user should be able to see "selenium interview questions" in search input field of next page
     And close the browser
-
+	@Regression
   Scenario Outline: Search required text in google
     Given Browser is already opened with valid url
     When user types <searchText> in search input field of google

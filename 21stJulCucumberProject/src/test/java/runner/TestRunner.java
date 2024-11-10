@@ -4,10 +4,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = { "src/test/resources/feature/VtigerLead.feature" }, // feature file or folder name
+		features = { "src/test/resources/features/" }, // feature file or folder name
 		glue = { "stepdef" },
-		//tags = "@Smoke",
-		//tags = "@Regression or @Smoke",
+		tags = "@Smoke",
 		//tags = "@Regression and not @Smoke",
 		plugin = { "pretty","html:target/cucumber-reports.html", 
 				"json:json_output/cucumber.json",
