@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-02T16:33:15 IST" name="Default suite" finished-at="2025-02-02T16:33:15 IST" duration-ms="714">
+    <groups>
+    </groups>
+    <test started-at="2025-02-02T16:33:15 IST" name="Default test" finished-at="2025-02-02T16:33:15 IST" duration-ms="714">
+      <class name="api.testcases.FakerClassTest">
+        <test-method signature="testFaker()[pri:0, instance:api.testcases.FakerClassTest@c03cf28]" started-at="2025-02-02T16:33:15 IST" name="testFaker" finished-at="2025-02-02T16:33:15 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaker -->
+      </class> <!-- api.testcases.FakerClassTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
